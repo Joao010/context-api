@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { Alunos } from "./components/Alunos";
+import { UserProvider } from './contexts/user';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserProvider>
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <h1>School</h1>
+
+        <hr style={{margin: '0 10px', height: 50}}/>
+
+        <Alunos/>
+      </div>
+    </UserProvider>
   );
 }
-
-export default App;
