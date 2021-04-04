@@ -1,6 +1,6 @@
 ### First, what is context API?
 
-- As vezes precisamos ter acesso a varios estados diferentes em nossa aplicação e não dá pra ficar passando props de componente em componente, porque vai chegar uma hora que ela vai ficar muito confusa e complexa. Por esse motivo o context API existe, ele cria um contexto que pode ser usado para armazenar os nossos estados e torná-los globais, sendo assim qualquer componente da aplicação pode acessá-los sem a necessidade da passagem de props. Claro que não armazenaremos todos os estados da aplicação num contexto pois é desnecessário guardar estados que são passados apenas pra um componente, e o objetivo do context API é nos ajudar a lidar com vários estados diferentes que iriam viajar de props em props sem ele.
+- As vezes precisamos ter acesso a vários estados diferentes em nossa aplicação e não dá pra ficar passando props de componente em componente, porque vai chegar uma hora que ela vai ficar muito confusa e complexa. Por esse motivo o context Api existe, ele cria um contexto que pode ser usado para armazenar os nossos estados e torná-los globais, sendo assim qualquer componente da aplicação pode acessá-los sem a necessidade da passagem de props. Claro que não armazenaremos todos os estados da aplicação num contexto pois é desnecessário guardar estados que são passados apenas pra um componente, e o objetivo do Context Api é nos ajudar a lidar com vários estados diferentes que iriam viajar de props em props sem ele.
 
 ---
 
