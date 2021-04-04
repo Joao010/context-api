@@ -6,10 +6,10 @@
 
 - Sometimes we need to have access to several different states in our application and it is not possible to keep passing props from component to component, because there will come a time when it will be very confusing and complex. For this reason the context API exists, it creates a context that can be used to store our states and make them global, so that any component of the application can access them without having to pass props. Of course, we will not store all application states in a context as it is unnecessary to store states that are passed only to one component, and the purpose of the context API is to help us deal with several different states that would travel from props to props without it.
 
---
+---
 
 ![image](https://user-images.githubusercontent.com/54006291/113495242-976ef980-94c6-11eb-96c1-44843d05d0c9.png)
 
---
+---
 
 ![image](https://user-images.githubusercontent.com/54006291/113495250-a35abb80-94c6-11eb-83e0-6d7e004de6e2.png)
